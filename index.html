@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey: Generalists vs. Specialists</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #333; color: #fff; margin: 0; padding: 20px; }
+    header { background: #900; padding: 20px; text-align: center; border-radius: 8px; margin-bottom: 20px; }
+    header h1 { margin: 0; font-size: 1.8rem; }
+    main { background: #444; padding: 20px; border-radius: 8px; max-width: 700px; margin: 0 auto; }
+    .form-group { margin-bottom: 20px; }
+    label { display: block; margin-bottom: 8px; font-weight: bold; }
+    select, input { width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #666;
+                  background: #555; color: #fff; font-size: 1rem; }
+    button { background: #900; color: #fff; border: none; padding: 12px 24px;
+             font-size: 1rem; border-radius: 4px; cursor: pointer; transition: background 0.3s; width: 100%; }
+    button:hover { background: #b00; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Survey: Perspectives on Generalists vs. Specialists in Team Innovation</h1>
+  </header>
+  <main>
+    <form action="https://formspree.io/f/myzwwoow" method="POST">
+      <!-- Respondent Info -->
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="status">Current Status:</label>
+        <select id="status" name="status" required>
+          <option value="">Select your status</option>
+          <option value="Student">Student</option>
+          <option value="Graduate">Graduate</option>
+          <option value="Employed">Employed</option>
+          <option value="Unemployed">Unemployed</option>
+        </select>
+      </div>
+      <!-- Survey Questions -->
+      <div class="form-group">
+        <label for="q1">1. In your experience, which type of team member contributes more to innovative solutions?</label>
+        <select id="q1" name="q1" required>
+          <option value="">Select an option</option>
+          <option value="Generalists">Generalists (broad knowledge across multiple areas)</option>
+          <option value="Specialists">Specialists (deep expertise in a specific area)</option>
+          <option value="Both">Both contribute equally</option>
+          <option value="Depends">It depends on the project</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q2">2. How important is having a generalist on a team for fostering creativity?</label>
+        <select id="q2" name="q2" required>
+          <option value="">Select an option</option>
+          <option value="Extremely important">Extremely important</option>
+          <option value="Somewhat important">Somewhat important</option>
+          <option value="Not very important">Not very important</option>
+          <option value="Not important at all">Not important at all</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q3">3. Do you believe generalists are better at connecting ideas across different domains?</label>
+        <select id="q3" name="q3" required>
+          <option value="">Select an option</option>
+          <option value="Strongly agree">Strongly agree</option>
+          <option value="Agree">Agree</option>
+          <option value="Disagree">Disagree</option>
+          <option value="Strongly disagree">Strongly disagree</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q4">4. When tackling complex problems, which team composition is more effective?</label>
+        <select id="q4" name="q4" required>
+          <option value="">Select an option</option>
+          <option value="Mostly generalists">Mostly generalists</option>
+          <option value="Mostly specialists">Mostly specialists</option>
+          <option value="Balanced mix">A balanced mix of both</option>
+          <option value="Depends">Depends on the specific problem</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q5">5. Have you observed a generalist leading a team to a successful innovative outcome?</label>
+        <select id="q5" name="q5" required>
+          <option value="">Select an option</option>
+          <option value="Yes, frequently">Yes, frequently</option>
+          <option value="Occasionally">Occasionally</option>
+          <option value="Rarely">Rarely</option>
+          <option value="Never">Never</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q6">6. In your organization, are generalists recognized for their contributions to innovation?</label>
+        <select id="q6" name="q6" required>
+          <option value="">Select an option</option>
+          <option value="Always">Always</option>
+          <option value="Often">Often</option>
+          <option value="Sometimes">Sometimes</option>
+          <option value="Never">Never</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q7">7. Do you think organizations should invest more in developing generalist skills among employees?</label>
+        <select id="q7" name="q7" required>
+          <option value="">Select an option</option>
+          <option value="Strongly agree">Strongly agree</option>
+          <option value="Agree">Agree</option>
+          <option value="Disagree">Disagree</option>
+          <option value="Strongly disagree">Strongly disagree</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q8">8. Which skill set do you believe is more adaptable to changing industry trends?</label>
+        <select id="q8" name="q8" required>
+          <option value="">Select an option</option>
+          <option value="Generalist">Generalist</option>
+          <option value="Specialist">Specialist</option>
+          <option value="Both equally">Both equally</option>
+          <option value="Neither">Neither</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q9">9. In your opinion, what is the ideal team composition for driving innovation?</label>
+        <select id="q9" name="q9" required>
+          <option value="">Select an option</option>
+          <option value="All generalists">All generalists</option>
+          <option value="All specialists">All specialists</option>
+          <option value="Mix of both">A mix of generalists and specialists</option>
+          <option value="Depends">Depends on the industry</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q10">10. Would you prefer to work in a team that values generalist perspectives?</label>
+        <select id="q10" name="q10" required>
+          <option value="">Select an option</option>
+          <option value="Yes, definitely">Yes, definitely</option>
+          <option value="Maybe">Maybe</option>
+          <option value="Not really">Not really</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+      <button type="submit">Submit Survey</button>
+    </form>
+  </main>
+</body>
+</html>
+
+
+
+
+ 
+
+
+
+
+
+
